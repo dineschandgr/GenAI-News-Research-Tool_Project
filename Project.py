@@ -12,6 +12,11 @@ import openai
 #for Streamlit local
 #os.environ['OPENAI_API_KEY'] = ""
 
+import os
+from dotenv import load_dotenv
+load_dotenv()  # take environment variables from .env (especially openai api key)
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
 openai.api_key = os.getenv('OPENAI_API_KEY')
 llm = OpenAI(temperature=0.7, openai_api_key=openai.api_key)
 
