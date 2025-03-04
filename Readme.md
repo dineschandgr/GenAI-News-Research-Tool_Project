@@ -31,3 +31,7 @@ Streamlit run Project.py
 
 streamlit run app.py --logger.level=debug
 
+**To install libraries from requirements.txt file**
+
+pip install -r requirements.txt
+
