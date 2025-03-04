@@ -11,3 +11,23 @@ Summarize KR Choksey's report on Tata motors
 What is the price of Tata Tigor CNG?
 
 
+**Check Library versions**
+
+pip show 'library-name'
+
+Eg: 
+
+**pip show langchain**
+
+To update library
+
+pip install --upgrade langchain
+
+**Start streamlit in normal mode**
+
+Streamlit run Project.py
+
+**Start streamlit in Debug Mode**
+
+streamlit run app.py --logger.level=debug
+
